@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>the first page</title>
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico"  />
+		<link rel="stylesheet" href="css/beach.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	</head>
+	<body style="background-color:#CFD1D0;">
+
+		<!--navigator-->
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li> <a href="beach.html">Beach</a></li>
+			<li><a href="forest.html">Forest</a></li>
+			<li><a href="about.html">About</a></li>
+		</ul>
+
+
+		<h1>Welcome to beach!</h1> <p><sub><a href="#end">Jump to the end </a></sub><p>
+
+		<h2><a href="forest.html">Click here for second page</a></h2>
+		
+		<img title="beach" src="images/beach.jpeg" width="450" hieight="500" usemap="#beaches">
+		
+		<map name="beaches">
+			<area shap="rec" coords="34,44,270,350" alt = "next" href="beachList.html">
+			<!--set sepecfic area to link to the other page by using coords-->
+		</map>
+		<p>this should be the paragrah</p>
+
+		<table>
+			<caption>Travle checklist</caption>
+			<tr>
+				<th>Beach Name</th>
+				<th> Location </th>
+				<th> visited? </th>				
+			</tr>
+			<tr id="beachList">
+				<td>South Beach </td>
+				<td> Miami Beach, FL 33139</td>
+				<td> </td>
+			</tr>
+			<tr id="beachList">
+				<td>1000 Steps Beach</td>
+				<td> 505 Forest Avenue Laguna Beach, CA 92651</td>
+				<td> </td>
+			</tr>
+			<tr id="beachList">
+				<td>El Matador Beach</td>
+				<td> 32350 Pacific Coast Hwy, Malibu, CA 90265</td>
+				<td> </td>
+			</tr>
+			<tr id="beachList">
+				<td>Orange Beach</td>
+				<td>4099 Orange Beach Boulevard Orange Beach, AL 36561</td>
+				<td> </td>
+			</tr>
+		</table>
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</body>
+	<foot id="end">
+		<a href="mailto:kaiyanzeng@Gmail.com">Contact Us</a>
+		<!--mailto will cause a application opend and send emial to destination-->
+		<!--might think about change it as open a popup mail edit in the future-->
+	</foot>
+
+</html>
